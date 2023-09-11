@@ -2,5 +2,5 @@ FLAGS =
 
 debug:
 		g++ $(FLAGS) main.cpp -DDEBUG -o prog
-relese:
+release:
 		g++ $(FLAGS) main.cpp -o prog
