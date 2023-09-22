@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
         Roots    test_roots = {};
     #endif
 
-    if(!check_params(argc, argv))
+    if(check_params(argc, argv) != CORRECT)
         return PARAM_ERROR;
 
     FILE *finput = NULL;

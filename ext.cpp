@@ -3,7 +3,9 @@
 int check_params(int argc, char *argv[])
 {
     if(argc != 2) 
-        return alert("Invalid arguments.", PARAM_ERROR);   
+        return alert("Invalid arguments.", PARAM_ERROR);  
+    else
+        return CORRECT;
 }
 
 
